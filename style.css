@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;500&display=swap');
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.522), rgba(0, 0, 0, 0.522)), url("ACt.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;;
+    width : 100vw;
+    height: 100vh;
+}
+#iCon
+{
+    background-image: url("OmegaDeveloprs_.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 20;
+    width: 42px;
+    height: 42px;
+}
+header
+{
+    background: #111;
+    color: #fff;
+    height: 4rem;
+
+    margin: 0;
+    display: flex;
+    padding: 0 1%;
+    align-items: center;
+    font-size: 1.5em;
+}
+.description
+{
+    margin: 0;
+}
+
+.colorize
+{
+    color: rgb(216, 29, 67);
+    font-weight: bold;
+}
+main
+{
+    margin: 25vh auto;
+    width: 25%;
+    background: white;
+    padding: 1.5%;
+    padding-bottom: 5%;
+    margin: 40 auto;
+    border-radius: 1em;
+}
+button
+{
+    width: 60px;
+    outline: none;
+    border: none;
+    background-color: rgb(216, 29, 67);
+    padding: 1.5%;
+    margin: 6px;
+    cursor: pointer;
+    border-radius: 1em;
+
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+.foot
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    border: 0;
+    font-size: x-small;
+    text-align: center;
+ 
+}
+.foot a{
+    color: #fff;
+    
+}
+#note{
+    position: absolute;
+    left: 0;
+    top: 11vh;
+    color: #fff;
+    font-size: small;
+}
+@media only screen and (max-width:400px)
+{
+    body
+    {
+        background: none;
+    }
+    main
+    {
+        width: 96% ;
+        max-width: 80vh;
+        border-radius: 1%;
+        margin: 5 auto;
+    }
+    #note{
+        color: #111;
+    }
+}
