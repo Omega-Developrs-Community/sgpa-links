@@ -5,6 +5,7 @@
     font-family: Montserrat;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -13,6 +14,7 @@ body{
     background-size: 100% 100%;;
     width : 100vw;
     height: 100vh;
+    overflow-y: hidden;
 }
 #iCon
 {
@@ -47,8 +49,10 @@ header
 }
 main
 {
+
     margin: 25vh auto;
-    width: 25%;
+    min-width: min-content;
+    max-width: 25%;
     background: white;
     padding: 1.5%;
     padding-bottom: 5%;
@@ -57,12 +61,13 @@ main
 }
 button
 {
+    display: block;
     width: 160px;
     outline: none;
     border: none;
     background-color: rgb(216, 29, 67);
-    padding: 1.5%;
-    margin: 10px auto;
+    padding: 1vh;
+    margin:  2.5vh auto;
     cursor: pointer;
     border-radius: 1em;
 
@@ -110,5 +115,6 @@ button a{
     }
     #note{
         color: #111;
+        top: 13vh;
     }
 }
