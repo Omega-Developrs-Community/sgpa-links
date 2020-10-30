@@ -53,10 +53,9 @@ main
     margin: 25vh auto;
     min-width: min-content;
     max-width: 25%;
+    height: min-content;
     background: white;
     padding: 1.5%;
-    padding-bottom: 5%;
-    margin: 40 auto;
     border-radius: 1em;
 }
 button
@@ -67,7 +66,7 @@ button
     border: none;
     background-color: rgb(216, 29, 67);
     padding: 1vh;
-    margin:  2.5vh auto;
+    margin:  10px  auto ;
     cursor: pointer;
     border-radius: 1em;
 
